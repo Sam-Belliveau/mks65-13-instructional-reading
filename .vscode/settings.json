@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "csv_reader.h": "c",
+        "populations.h": "c",
+        "stdlib.h": "c",
+        "errno.h": "c",
+        "ostream": "c",
+        "*.tcc": "c",
+        "exception": "c",
+        "memory_resource": "c",
+        "iosfwd": "c",
+        "new": "c",
+        "sstream": "c",
+        "stop_token": "c",
+        "streambuf": "c",
+        "cstring": "c"
+    }
+}
