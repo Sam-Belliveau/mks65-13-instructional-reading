@@ -13,6 +13,8 @@
         "sstream": "c",
         "stop_token": "c",
         "streambuf": "c",
-        "cstring": "c"
+        "cstring": "c",
+        "dirent.h": "c",
+        "types.h": "c"
     }
 }

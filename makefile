@@ -1,6 +1,6 @@
 # Directories for compiling results
 OBJ=./obj
-SRC=./SRC
+SRC=./src
 
 # Output for binary
 OUTPUT=./instructional_reading
