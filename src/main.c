@@ -9,8 +9,8 @@ int main(int argc, char** argv)
 {
     char user_input[2048];
 
-    clear_data();
-    read_csv(CSV_FILE);
+    clear_entries();
+    load_entries(CSV_FILE);
     printf("Loaded Entries From \"" CSV_FILE "\"!\n\n");
 
     printf("Type \"help\" for list of commands.");
@@ -53,21 +53,21 @@ int main(int argc, char** argv)
             break;
 
         case 'c': case 'C':
-            clear_data();
+            clear_entries();
             printf("Data Cleared!\n");
             break;
 
         case 'l': case 'L':
-            read_csv(CSV_FILE);
+            load_entries(CSV_FILE);
             printf("Loaded Entries From \"" CSV_FILE "\"!\n");
             break;
 
         case 't': case 'T':
-            read_data();
+            print_entries();
             break;
 
         case 'a': case 'A':
-            add_data();
+            user_save_entry();
             break;
 
         case 'g': case 'G':
